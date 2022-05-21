@@ -6,7 +6,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 
 @pytest.fixture
-def config(scope='session'):
+def config():
     with open('config.json') as config_file:
         config = json.load(config_file)
 

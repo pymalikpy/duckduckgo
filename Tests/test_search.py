@@ -1,3 +1,4 @@
+from webbrowser import Chrome
 from Pages.search import DuckDuckGoSearchPage
 from Pages.result import DuckDuckGoResultPage
 
@@ -22,6 +23,3 @@ def test_duckduckgo_search(browser):
     # And the search result links pertain to "TEST Automation With AI"
     # for title in result_page.result_link_titles():
     #     assert PHRASE.lower() in titles.lower()
-
-    # # TODO: Remove this exception once the test is complete
-    # raise Exception("Incomplete Test")
